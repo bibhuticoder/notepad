@@ -3,11 +3,8 @@ $(window).load(function(){
     var currentIndex = 0;
     
     var files = [
-        {name:"file 0", text:"Test of file 0"},
-        {name:"file 1", text:"Test of file 1"},
-        {name:"file 2", text:"Test of file 2"},
-        {name:"file 3", text:"Test of file 3"},
-        {name:"file 4", text:"Test of file 4"},
+        {name:"TestFile", text:"This file is generated for testing purpose..."},
+        
     ];
        
     $(".btnPlus").click(function(){
